@@ -1,0 +1,7 @@
+﻿<Project>
+  <PropertyGroup>
+    <LangVersion>8</LangVersion>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>

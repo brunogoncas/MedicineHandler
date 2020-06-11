@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MedicineHandler</name>
+    </assembly>
+    <members>
+        <member name="M:MedicineHandler.Controllers.V1.MedicationController.GetAllMedicationsAsync(MedicineHandler.DTO.Filters.MedicationSearchFilter)">
+            <summary>
+            Gets all medications.
+            </summary>
+            <param name="filter">Query filter.</param>
+            <returns>The list of medications.</returns>
+        </member>
+        <member name="M:MedicineHandler.Controllers.V1.MedicationController.GetMedicationByIdAsync(System.String)">
+            <summary>
+            Gets a medication.
+            </summary>
+            <param name="id">The medication identifier.</param>
+            <returns>The medication.</returns>
+        </member>
+        <member name="M:MedicineHandler.Controllers.V1.MedicationController.CreateMedicationAsync(MedicineHandler.DTO.Entities.Medication)">
+            <summary>
+            Creates a medication.
+            </summary>
+            <param name="medication">The medication.</param>
+            <returns>The created medication and it's location.</returns>
+        </member>
+        <member name="M:MedicineHandler.Controllers.V1.MedicationController.DeleteMedicationAsync(System.String)">
+            <summary>
+            Deletes a medication.
+            </summary>
+            <param name="id">The medication identifier.</param>
+            <returns>Nothing.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>MedicineHandler.Application</RootNamespace>
+    <AssemblyName>MedicineHandler.Application</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MedicineHandler.DTO\MedicineHandler.DTO.csproj" />
+  </ItemGroup>
+</Project>
